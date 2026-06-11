@@ -1,0 +1,21 @@
+{
+  "name": "campuslink-api",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:setup": "node scripts/setup-neon.mjs",
+    "db:migrate": "node scripts/migrate-from-supabase.mjs"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "hono": "^4.7.4",
+    "pg": "^8.21.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250317.0",
+    "typescript": "^5.8.2",
+    "wrangler": "^4.4.0"
+  }
+}

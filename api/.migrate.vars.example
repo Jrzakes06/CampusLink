@@ -1,0 +1,4 @@
+# Copy to .migrate.vars (gitignored) — Supabase direct or pooler connection string
+# If password contains @, encode it as %40 (e.g. pass@word → pass%40word)
+# Pooler (recommended): postgresql://postgres.PROJECT_REF:PASSWORD@aws-0-REGION.pooler.supabase.com:6543/postgres
+SUPABASE_DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@db.YOUR_PROJECT.supabase.co:5432/postgres

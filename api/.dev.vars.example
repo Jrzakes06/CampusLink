@@ -1,0 +1,9 @@
+# Copy to api/.dev.vars for local wrangler dev
+DATABASE_URL=postgresql://user:password@ep-xxx.region.aws.neon.tech/neondb?sslmode=require
+# Optional — if set, frontend must send Authorization: Bearer <same value>
+# API_SECRET=your-random-secret-here
+
+# KYC AI agent (OpenAI vision) — get key at https://platform.openai.com/api-keys
+OPENAI_API_KEY=sk-your-openai-key
+# Set to false to disable auto-verify on submit (default: enabled)
+# KYC_AUTO_VERIFY=true
