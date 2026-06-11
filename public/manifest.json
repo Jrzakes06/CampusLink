@@ -1,0 +1,110 @@
+{
+  "name": "CampusLink - Campus Marketplace & Jobs",
+  "short_name": "CampusLink",
+  "description": "A comprehensive campus marketplace and job board platform for students to buy, sell, and find opportunities",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#020617",
+  "theme_color": "#8b5cf6",
+  "categories": ["shopping", "productivity", "business"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%238b5cf6;stop-opacity:1' /><stop offset='100%' style='stop-color:%236d28d9;stop-opacity:1' /></linearGradient></defs><rect fill='url(%23grad)' width='192' height='192' rx='40'/><text x='96' y='130' font-size='100' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui, -apple-system, sans-serif'>CL</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%238b5cf6;stop-opacity:1' /><stop offset='100%' style='stop-color:%236d28d9;stop-opacity:1' /></linearGradient></defs><rect fill='url(%23grad)' width='512' height='512' rx='100'/><text x='256' y='360' font-size='280' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui, -apple-system, sans-serif'>CL</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='white' width='192' height='192' rx='40'/><text x='96' y='130' font-size='100' font-weight='bold' fill='%238b5cf6' text-anchor='middle' font-family='system-ui, -apple-system, sans-serif'>CL</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='white' width='512' height='512' rx='100'/><text x='256' y='360' font-size='280' font-weight='bold' fill='%238b5cf6' text-anchor='middle' font-family='system-ui, -apple-system, sans-serif'>CL</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%23020617' width='540' height='720'/><rect fill='%238b5cf6' width='540' height='100'/><text x='270' y='70' font-size='50' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>CampusLink</text><text x='270' y='200' font-size='40' fill='%238b5cf6' text-anchor='middle' font-family='system-ui'>Marketplace &amp; Jobs</text><rect x='30' y='250' width='480' height='60' fill='%238b5cf6' opacity='0.2' rx='8'/><rect x='30' y='330' width='480' height='60' fill='%238b5cf6' opacity='0.2' rx='8'/><rect x='30' y='410' width='480' height='60' fill='%238b5cf6' opacity='0.2' rx='8'/></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1280 720'><rect fill='%23020617' width='1280' height='720'/><rect fill='%238b5cf6' width='1280' height='80'/><text x='640' y='55' font-size='50' font-weight='bold' fill='white' text-anchor='middle' font-family='system-ui'>CampusLink - Campus Marketplace &amp; Jobs</text><g fill='%238b5cf6' opacity='0.2'><rect x='50' y='120' width='300' height='150' rx='8'/><rect x='400' y='120' width='300' height='150' rx='8'/><rect x='750' y='120' width='300' height='150' rx='8'/><rect x='50' y='300' width='300' height='150' rx='8'/><rect x='400' y='300' width='300' height='150' rx='8'/><rect x='750' y='300' width='300' height='150' rx='8'/></g></svg>",
+      "sizes": "1280x720",
+      "type": "image/svg+xml",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Marketplace",
+      "short_name": "Shop",
+      "description": "Browse and buy products on the marketplace",
+      "url": "/?view=marketplace",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%238b5cf6' width='96' height='96' rx='16'/><g fill='white'><path d='M24 32h48v8H24z'/><path d='M24 48h48v8H24z'/><path d='M24 64h32v8H24z'/></g></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Jobs",
+      "short_name": "Jobs",
+      "description": "Browse and apply for campus jobs",
+      "url": "/?view=jobs",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%238b5cf6' width='96' height='96' rx='16'/><g fill='white' stroke='white' stroke-width='2'><rect x='20' y='24' width='16' height='32'/><rect x='44' y='16' width='16' height='40'/><rect x='68' y='28' width='16' height='28'/><rect x='20' y='60' width='64' height='8'/></g></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    },
+    {
+      "name": "Messages",
+      "short_name": "Chat",
+      "description": "View and send messages",
+      "url": "/?view=messenger-inbox",
+      "icons": [
+        {
+          "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 96'><rect fill='%238b5cf6' width='96' height='96' rx='16'/><g fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round'><path d='M24 28h48c4 0 8 4 8 8v28c0 4-4 8-8 8H32l-8 8v-8H24c-4 0-8-4-8-8V36c0-4 4-8 8-8z'/><circle cx='36' cy='48' r='2' fill='white'/><circle cx='48' cy='48' r='2' fill='white'/><circle cx='60' cy='48' r='2' fill='white'/></g></svg>",
+          "sizes": "96x96",
+          "type": "image/svg+xml"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "media",
+          "accept": ["image/*", "video/*"]
+        }
+      ]
+    }
+  },
+  "prefer_related_applications": false
+}

@@ -17,6 +17,7 @@ import { Messenger } from './components/Messenger';
 import { MessengerInbox } from './components/MessengerInbox';
 import { Links } from './components/Links';
 import { UserProfile } from './components/UserProfile';
+import { InstallPrompt } from './components/InstallPrompt';
 import { PlusSquare, Bell, CalendarDays, Home as HomeIcon, MessageSquare, Search, Shield, ShoppingBag, Sparkles, Users } from 'lucide-react';
 import { API_BASE, apiHeaders, apiJsonHeaders } from '../../utils/api';
 import { usePolling } from '../../utils/usePolling';
@@ -949,6 +950,9 @@ export default function App() {
           })}
         </div>
       </div>
+
+      {/* PWA Install Prompt */}
+      <InstallPrompt />
     </div>
   );
 }
